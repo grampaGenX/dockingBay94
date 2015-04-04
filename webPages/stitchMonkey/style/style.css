@@ -1,0 +1,116 @@
+/* ===============================
+   
+2015 webmonkeyforhire.com
+all  CSS Sean P Mayo
+   
+    Colour Palette:
+   ---------------
+  background-color: #003366;
+
+   =============================== */
+
+
+/*Global Style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#topBar {
+    background-color: saddlebrown;
+    padding: 10px;
+}
+
+body{
+    font-size: 1em;
+    color:saddlebrown;
+}
+
+#logo{
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav{
+    background-color: saddlebrown;
+    padding: 8px;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    background-color: saddlebrown;
+    padding: 8px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+   }
+
+nav ul li a:hover{
+    color:yellow;
+    margin: 0 auto;
+}
+
+#contact{
+    text-align: center;
+    width:350px;
+    height: 250px;
+    background-color: tan;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+#contact h3{
+    padding: 20px
+}
+
+.mail{
+    padding-top: 20px;
+}
+
+.fb-like-box{
+   margin-left: 65px;
+  
+}
+
+.twitter-follow-button{
+    padding: 20px;
+    
+}
+
+/*sticky footer*/
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -80px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 80px; 
+}
+.site-footer {
+  background: saddlebrown;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px
+}
+
+.site-footer a{
+    color: #fff;
+}

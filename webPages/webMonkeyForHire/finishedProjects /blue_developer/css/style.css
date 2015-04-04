@@ -1,0 +1,262 @@
+/* 
+-----------------------
+2015 webmonkeyforhire.com
+all CSS Sean P Mayo
+-----------------------
+colors:
+Text Blue       #1c478e
+Backround Blue  #1c478e
+Header Blue     #67adf5
+h4              #054dbe
+
+
+
+*/
+
+*{
+    margin:0 auto 0 auto;
+    text-align: left;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 13px;
+    font-family: Arial,helvetica,sans-serif;
+    color: 000;
+    background-color: #1c478e; 
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+table, tr, td, th{
+    margin: 0;
+}
+
+table{
+    padding: 10px 0;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    padding: 5px 20px 
+}
+
+footer{
+    color:#fff;
+    text-align: center;
+    background: black;
+    padding: 10px 0 10px 0;
+    margin-top:  5px;
+        
+}
+
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #1c478e;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    color: #054dbe;
+}
+ 
+#container{
+    width: 960px;
+}
+
+header{
+    width: 960px;
+    height: 80px;
+}
+
+header h1{
+    color: #fff;
+    float: left;
+    font-size: 43px;
+    padding: 20px 0 0 20px;
+}
+
+header h2{
+    float: right;
+    color: #67adf5;
+    padding: 40px 20px 0 0;
+}
+
+header h1 span.bluetext{
+    color: #67adf5;
+}
+
+header h2 span.whitetext{
+    color: #fff;
+}
+
+#menu{
+    display: block;
+    float: left;
+    clear: both;
+    width: 960px;
+    height: 54px;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    padding-top: 25px;
+    width: 960px;
+}
+
+#menu li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+    
+}
+
+#menu li a,menu li a:visited{
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10px 0 10px
+}
+
+#left_menu{
+    margin-top: 15px;
+    width: 130px;
+    float: left;
+    background-color: #1c478e;
+    border-radius: 10px;
+    padding: 15px 20px 10px 10px;
+    
+}
+
+#left_menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#left_menu h3{
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: #fff solid 2px;
+    font-size: 16px;
+}
+
+#left_menu li {
+    list-style: none;
+    padding: 15px 0 8px 0;
+    border-bottom: #fff dashed 1px;
+    
+}
+
+#left_menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding:15px 0 0 0;
+}
+
+section{
+    display: block;
+    width: 680px;
+    margin-top: 15px;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 6px solid #1c478e;
+    padding: 15px;
+    margin-left: 15px;
+    
+}
+
+.float{
+    float: right;
+    margin: 15px;
+}
+
+.developer{
+    width: 170px;
+    float: right;
+}
+
+.developer ul {
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.developer li{
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.7em;
+}
+
+table.dev-table, table.dev-table tr,table.dev-table td,table.dev-table th{
+    font-size: 110%;
+   
+}
+
+table.dev-table tr,table.dev-table td{
+     border-bottom: dashed #000 1px;
+}
+
+#textinput{
+    width: 13px;
+    margin-bottom: 5px;
+}
+
+#submit{
+    margin-top: 15px;
+}
+
+#website{
+    width: 200px;
+    margin-left: 50px;
+}
+
+#website_lable{
+    width: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

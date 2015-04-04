@@ -1,0 +1,82 @@
+/* ===============================
+   
+2015 webmonkeyforhire.com
+all  CSS Sean P Mayo
+ =============================== */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - 
+GLOBAL FIXES
+- - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+*{
+    margin: 0,0,0,0;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - 
+END GLOBAL FIXES
+- - - - - - - - - - - - - - - - - - - - - - - - */
+
+#topBar {
+    background-color: #faac5f;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+body{
+    font-size: 1em;
+    color:#fff;
+}
+
+#logo{
+    float: left;
+    width: 560px;
+    display: block;
+}
+
+#contact{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width:350px;
+    height: 250px;
+    background-color: #faac5f;
+    margin-top: 90px;
+    box-shadow: 10px 10px 5px #aaa;
+    
+}
+
+#contact h3{
+    padding: 20px
+}
+
+.mail{
+    padding-top: 20px;
+}
+
+/*sticky footer*/
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -80px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 80px; 
+}
+.site-footer {
+  background: #faac5f;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px
+}
+
+.site-footer a{
+    color: #fff;
+}
