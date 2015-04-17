@@ -1,0 +1,56 @@
+/* 
+------------------------
+Dynamic v2.
+-----------------------
+2015 webmonkeyforhire.com
+all CSS Sean P Mayo
+-----------------------
+*/
+
+/*Global Content Formatting and Styles for ie 8*/
+
+@charset "UTF-8";
+
+/*Text Formating*/
+
+.page nav a { 
+    background-color: none; 
+    background-image: url(../images/ie_transparency_normal.png); 
+}
+
+.page nav a:hover { 
+    background-color: none; 
+    background-image: url(../images/ie_transparency_over.png); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

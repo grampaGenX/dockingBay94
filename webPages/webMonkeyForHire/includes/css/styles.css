@@ -1,0 +1,267 @@
+/*
+
+My Custom CSS
+=============
+Author:Sean Mayo
+*/
+/*
+------------
+    Hero
+------------
+*/
+
+#hero {
+	background: url("../../images/hero-bg.png") 25% 0 no-repeat fixed;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color:white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+#hero article { 
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#hero .hero-text {
+	margin-top: -40px;
+}
+
+#price-timeline {
+	margin: 30px 0 60px;
+	text-align: center;
+    color: white;
+}
+
+#price-timeline .price {
+	display: inline-block;
+	width: 30%;
+	margin: 0 2% 0 0;
+	background-color:teal;
+	padding: 10px 20px 30px;
+	position: relative;
+	vertical-align: top;
+}
+
+#price-timeline .price.active {
+	;
+}
+
+#price-timeline .price span {
+	background: #101010;
+	display: block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -35px;
+}
+
+#price-timeline h4 {
+	margin: 0 0 10px;
+}
+
+#price-timeline h4 small {
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
+.logo{
+    margin-top:100px;
+   
+}
+
+/*---------------
+General
+-----------------*/
+body{
+    background-image:url(../../images/concrete_seamless.png);
+    margin-bottom: 25px;
+}
+
+
+
+.col-sm-1{
+    border-bottom:90px; 
+}
+
+
+#sean{
+    border-radius: 100%;
+    margin-top: 30px;
+    float: left;
+    margin-left: -150px;    
+}
+
+#p1{
+    
+    background-color: teal;
+    color: white;
+    margin-top: 25px;
+    padding: 20px 150px 20px 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#p1 em{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#sp{
+    display:block;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom: 30px;
+        
+}
+
+.v2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#webpages{
+    margin-left: auto;
+    margin-right: auto;
+
+}   
+
+#webpages ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+
+
+#webpages ul li a{
+   
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold; 
+    list-style-type: none;
+    color: black;
+    border-left: 0px;
+    margin: 0;
+    padding: 0;
+    
+}
+   
+#webpages ul li a:hover{
+    color: #2a4480;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+ #webpages img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding: 0;
+  
+}
+
+/*---------------------
+Services
+-------------------*/
+
+.wd{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 45%;
+}
+
+#left_links{
+    margin-bottom: 40px;
+    
+}
+
+
+
+/*----------------
+Modal
+-----------------*/
+
+.modal-header{
+    
+    background-color: cadetblue;
+    padding: 20px; 
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar-brand{
+ padding: 10px 5px 4px 20px;
+}
+   
+.navbar{
+    background-color: cadetblue
+}
+
+
+   
+/* --------------------------------------
+  footer
+   -------------------------------------- */
+footer .container{
+    margin-top: 0px;
+    
+}
+
+footer ul li a {
+    color: black;
+}
+
+footer a {
+    color: black;
+}
+
+footer ul li {
+    padding-top: 10px;
+    color: black;
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
