@@ -22,11 +22,11 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'sean@webmonkeyforhire.com';//<== update the email address
+$email_from = "sean@webmonkeyforhire.com";//<== update the email address
 $email_subject = "New Form submission";
 $email_body = "You have received a new message from the user $name.\n".
 	"$phone\n".
-    "Here is the message:\n $message".
+    "Here is the message:\n $message\n".
     
 $to = "sean@webmonkeyforhire.com";//<== update the email address
 $headers = "From: $email_from \r\n";
