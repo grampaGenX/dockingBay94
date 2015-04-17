@@ -11,12 +11,13 @@ Author:Sean Mayo
 */
 
 #hero {
-	background: url("../../images/hero-bg.png") 25% 0 no-repeat fixed;
+	background: url("../../images/hero-bg.png") 100% 0 no-repeat fixed;
+  
 	min-height: 500px;
 	position: relative;
 	display: table;
 	width: 100%;
-	padding: 40px 0;
+	padding: 80px 0;
 	color:white;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
